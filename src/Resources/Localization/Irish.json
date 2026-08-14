@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "ní féidir an log a shábháil: {0} (eisceacht: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "ní thacaítear le barrfheabhsú {0} ar an leagan córais oibriúcháin seo",
   "ErrorResetCommand": "theip ar athshocrú: {0}",
-  "EveryHour": "gach {0}h",
   "Exit": "scoir",
   "Expand": "leathnaigh",
   "Free": "saor",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "nuair a bhíonn cuimhne fhisiciúil saor faoi bhun {0}%",
   "WarningLevel": "leibhéal rabhaidh",
   "WorkingSet": "tacar oibre",
-  "Yes": "tá"
+  "Yes": "tá",
+  "EveryMinute": "gach {0}nóim"
 }

@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "das protokoll kann nicht gespeichert werden: {0} (ausnahme: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "die {0}-optimierung wird auf dieser betriebssystemversion nicht unterstützt",
   "ErrorResetCommand": "zurücksetzen fehlgeschlagen: {0}",
-  "EveryHour": "alle {0}h",
   "Exit": "beenden",
   "Expand": "ausklappen",
   "Free": "frei",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "wenn freier physikalischer speicher unter {0}% liegt",
   "WarningLevel": "warnstufe",
   "WorkingSet": "arbeitssatz",
-  "Yes": "ja"
+  "Yes": "ja",
+  "EveryMinute": "alle {0}min"
 }

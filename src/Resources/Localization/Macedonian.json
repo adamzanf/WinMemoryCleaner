@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "не може да се зачува дневникот: {0} (исклучок: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "оптимизацијата на {0} не е поддржана на оваа верзија на оперативниот систем",
   "ErrorResetCommand": "ресетирањето не успеа: {0}",
-  "EveryHour": "секој {0}h",
   "Exit": "излез",
   "Expand": "прошири",
   "Free": "слободно",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "кога слободната физичка меморија е под {0}%",
   "WarningLevel": "ниво на предупредување",
   "WorkingSet": "работен сет",
-  "Yes": "да"
+  "Yes": "да",
+  "EveryMinute": "секој {0}мин"
 }

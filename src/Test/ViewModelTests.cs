@@ -165,7 +165,7 @@ namespace WinMemoryCleaner.Test
             }
 
             [Test]
-            public void AutoOptimizationInterval_SetTo1Hour_UpdatesCorrectly()
+            public void AutoOptimizationInterval_SetTo1Minute_UpdatesCorrectly()
             {
                 _viewModel.AutoOptimizationInterval = 1;
 
@@ -174,7 +174,7 @@ namespace WinMemoryCleaner.Test
             }
 
             [Test]
-            public void AutoOptimizationInterval_SetTo12Hours_UpdatesCorrectly()
+            public void AutoOptimizationInterval_SetTo12Minutes_UpdatesCorrectly()
             {
                 _viewModel.AutoOptimizationInterval = 12;
 
@@ -183,12 +183,12 @@ namespace WinMemoryCleaner.Test
             }
 
             [Test]
-            public void AutoOptimizationInterval_SetTo24Hours_UpdatesCorrectly()
+            public void AutoOptimizationInterval_SetTo60Minutes_UpdatesCorrectly()
             {
-                _viewModel.AutoOptimizationInterval = 24;
+                _viewModel.AutoOptimizationInterval = 60;
 
-                Assert.AreEqual(24, _viewModel.AutoOptimizationInterval);
-                Assert.AreEqual(24, Settings.AutoOptimizationInterval);
+                Assert.AreEqual(60, _viewModel.AutoOptimizationInterval);
+                Assert.AreEqual(60, Settings.AutoOptimizationInterval);
             }
 
             [Test]

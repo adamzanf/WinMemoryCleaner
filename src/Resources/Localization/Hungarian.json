@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "a napló nem menthető: {0} ({1})",
   "ErrorMemoryAreaOptimizationNotSupported": "a(z) {0} optimalizálása nem támogatott ezen az operációs rendszer verzión",
   "ErrorResetCommand": "a visszaállítás sikertelen: {0}",
-  "EveryHour": "minden {0} óra",
   "Exit": "kilépés",
   "Expand": "kibontás",
   "Free": "szabad memória",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "amikor a szabad fizikai memória {0}% alá esik",
   "WarningLevel": "figyelmeztetési szint",
   "WorkingSet": "munkakészlet",
-  "Yes": "igen"
+  "Yes": "igen",
+  "EveryMinute": "minden {0} perc"
 }

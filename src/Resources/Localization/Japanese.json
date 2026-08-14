@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "ログを保存できません: {0} (除外: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "{0} の最適化は、このオペレーティング システムのバージョンではサポートされていません",
   "ErrorResetCommand": "リセットに失敗しました：{0}",
-  "EveryHour": "毎 {0}h",
   "Exit": "終了",
   "Expand": "展開",
   "Free": "フリー",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "空き物理メモリが {0}% を下回ったとき",
   "WarningLevel": "警告レベル",
   "WorkingSet": "ワーキングセット",
-  "Yes": "はい"
+  "Yes": "はい",
+  "EveryMinute": "毎 {0}分"
 }

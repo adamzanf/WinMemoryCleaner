@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "로그를 저장할 수 없습니다: {0} ({1})",
   "ErrorMemoryAreaOptimizationNotSupported": "이 운영 체제 버전에서는 {0} 최적화가 지원되지 않습니다.",
   "ErrorResetCommand": "재설정 실패: {0}",
-  "EveryHour": "매 {0}시간마다",
   "Exit": "종료",
   "Expand": "펴기",
   "Free": "여유",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "여유 물리적 메모리가 {0}% 미만일 때",
   "WarningLevel": "경고 수준",
   "WorkingSet": "작업 세트",
-  "Yes": "예"
+  "Yes": "예",
+  "EveryMinute": "매 {0}분마다"
 }

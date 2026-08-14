@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "није могуће сачувати лог: {0} (изузетак: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "оптимизација {0} није подржана у овој верзији оперативног система",
   "ErrorResetCommand": "resetovanje nije uspelo: {0}",
-  "EveryHour": "сваких {0}ч",
   "Exit": "излаз",
   "Expand": "прошири",
   "Free": "слободно",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "када је слободна физичка меморија испод {0}%",
   "WarningLevel": "ниво упозорења",
   "WorkingSet": "радни сет",
-  "Yes": "да"
+  "Yes": "да",
+  "EveryMinute": "сваких {0}мин"
 }

@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "неуспешно запазване на log: {0} (exception: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "оптимизацията на {0} не се поддържа от тази версия на операционната система",
   "ErrorResetCommand": "неуспешно нулиране: {0}",
-  "EveryHour": "всички {0}h",
   "Exit": "изход",
   "Expand": "разшири",
   "Free": "свободна",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "когато свободната физическа памет е под {0}%",
   "WarningLevel": "ниво на предупреждение",
   "WorkingSet": "работен набор",
-  "Yes": "да"
+  "Yes": "да",
+  "EveryMinute": "всички {0}мин"
 }

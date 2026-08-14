@@ -16,7 +16,7 @@ namespace WinMemoryCleaner
         private string _background;
         private string _close, _closeAfterOptimization, _closeToTheNotificationArea, _collapse, _combinedPageList, _createStartMenuShortcut;
         private string _dangerLevel, _donate, _donationMessage, _donationTitle;
-        private string _error, _errorAdminPrivilegeRequired, _errorCanNotSaveLog, _errorMemoryAreaOptimizationNotSupported, _errorResetCommand, _everyHour, _exit, _expand;
+        private string _error, _errorAdminPrivilegeRequired, _errorCanNotSaveLog, _errorMemoryAreaOptimizationNotSupported, _errorResetCommand, _everyMinute, _exit, _expand;
         private string _free;
         private string _garbageCollector;
         private string _help, _hotkeyIsInUseByOperatingSystem;
@@ -193,10 +193,10 @@ namespace WinMemoryCleaner
         }
 
         [DataMember]
-        public string EveryHour
+        public string EveryMinute
         {
-            get { return _everyHour; }
-            private set { _everyHour = value.Capitalize(); }
+            get { return _everyMinute; }
+            private set { _everyMinute = value.Capitalize(); }
         }
 
         [DataMember]

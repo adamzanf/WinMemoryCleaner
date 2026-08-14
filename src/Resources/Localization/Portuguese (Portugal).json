@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "não é possível guardar o registo: {0} ({1})",
   "ErrorMemoryAreaOptimizationNotSupported": "a otimização da área de memória {0} não é suportada nesta versão do sistema operativo",
   "ErrorResetCommand": "falha ao repor: {0}",
-  "EveryHour": "a cada {0}h",
   "Exit": "sair",
   "Expand": "expandir",
   "Free": "livre",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "quando a memória física livre estiver abaixo de {0}%",
   "WarningLevel": "nível de aviso",
   "WorkingSet": "conjunto de trabalho",
-  "Yes": "sim"
+  "Yes": "sim",
+  "EveryMinute": "a cada {0}min"
 }

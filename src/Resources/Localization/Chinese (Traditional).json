@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "無法儲存記錄: {0} (例外狀況: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "此作業系統版本不支援 {0} 最佳化",
   "ErrorResetCommand": "重置失敗：{0}",
-  "EveryHour": "每隔 {0}h",
   "Exit": "結束",
   "Expand": "展開",
   "Free": "可用",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "當可用實體記憶體低於 {0}% 時",
   "WarningLevel": "警告級別",
   "WorkingSet": "工作集",
-  "Yes": "是"
+  "Yes": "是",
+  "EveryMinute": "每隔 {0}分"
 }

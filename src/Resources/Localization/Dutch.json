@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "kan de log niet opslaan: {0} (uitzondering: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "de optimalisatie van {0} wordt niet ondersteund op deze besturingssysteemversie",
   "ErrorResetCommand": "reset mislukt: {0}",
-  "EveryHour": "elke {0}h",
   "Exit": "sluiten",
   "Expand": "uitvouwen",
   "Free": "vrij",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "wanneer het vrije fysieke geheugen lager is dan {0}%",
   "WarningLevel": "waarschuwingsniveau",
   "WorkingSet": "werkset",
-  "Yes": "ja"
+  "Yes": "ja",
+  "EveryMinute": "elke {0}min"
 }

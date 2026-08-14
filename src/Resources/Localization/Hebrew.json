@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "לא יכול לשמור את היומן: {0} (חריג: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "האופטימיזציה {0} אינה נתמכת בגרסת מערכת הפעלה זו",
   "ErrorResetCommand": "האיפוס נכשל: {0}",
-  "EveryHour": "כל {0} שעות",
   "Exit": "יציאה",
   "Expand": "הרחב",
   "Free": "פנוי",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "כאשר הזיכרון הפיזי הפנוי נמוך מ-{0}%",
   "WarningLevel": "רמת אזהרה",
   "WorkingSet": "קבוצת עבודה",
-  "Yes": "כן"
+  "Yes": "כן",
+  "EveryMinute": "כל {0} דקות"
 }

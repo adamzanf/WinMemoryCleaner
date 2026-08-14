@@ -188,7 +188,7 @@ namespace WinMemoryCleaner
         /// </value>
         public string AutoOptimizationMemoryIntervalDescription
         {
-            get { return string.Format(Localizer.Culture, Localizer.String.EveryHour, AutoOptimizationInterval); }
+            get { return string.Format(Localizer.Culture, Localizer.String.EveryMinute, AutoOptimizationInterval); }
         }
 
         /// <summary>
@@ -1638,7 +1638,7 @@ namespace WinMemoryCleaner
                         {
                             // Interval
                             if (Settings.AutoOptimizationInterval > 0 &&
-                                DateTimeOffset.Now.Subtract(_lastAutoOptimizationByInterval).TotalHours >= Settings.AutoOptimizationInterval)
+                                DateTimeOffset.Now.Subtract(_lastAutoOptimizationByInterval).TotalMinutes >= Settings.AutoOptimizationInterval)
                             {
                                 OptimizeAsync(Enums.Memory.Optimization.Reason.Schedule);
 

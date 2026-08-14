@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "ไม่สามารถบันทึก log: {0} (ข้อยกเว้น: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "การเพิ่มประสิทธิภาพ {0} ไม่รองรับในเวอร์ชันของระบบปฏิบัติการนี้",
   "ErrorResetCommand": "การรีเซ็ตล้มเหลว: {0}",
-  "EveryHour": "ทุก {0}h",
   "Exit": "ออก",
   "Expand": "ขยาย",
   "Free": "ว่าง",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "เมื่อหน่วยความจำทางกายภาพว่างต่ำกว่า {0}%",
   "WarningLevel": "ระดับคำเตือน",
   "WorkingSet": "ชุดการทำงาน",
-  "Yes": "ใช่"
+  "Yes": "ใช่",
+  "EveryMinute": "ทุก {0}นาที"
 }

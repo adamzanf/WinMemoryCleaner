@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "kan ikke lagre loggen: {0} (unntak: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "{0}-optimalisering støttes ikke på denne versjonen av operativsystemet",
   "ErrorResetCommand": "tilbakestilling mislyktes: {0}",
-  "EveryHour": "hvert {0}h",
   "Exit": "avslutt",
   "Expand": "utvid",
   "Free": "ledig",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "når ledig fysisk minne er under {0}%",
   "WarningLevel": "advarselsnivå",
   "WorkingSet": "arbeidssett",
-  "Yes": "ja"
+  "Yes": "ja",
+  "EveryMinute": "hvert {0}min"
 }

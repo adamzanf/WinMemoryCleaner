@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "ni mogoče shraniti dnevnika: {0} (izjema: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "optimizacija {0} ni podprta v tej različici operacijskega sistema",
   "ErrorResetCommand": "ponastavitev ni uspela: {0}",
-  "EveryHour": "vsakih {0}h",
   "Exit": "izhod",
   "Expand": "razširi",
   "Free": "prosto",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "ko je prost fizični pomnilnik pod {0}%",
   "WarningLevel": "stopnja opozorila",
   "WorkingSet": "delovni nabor",
-  "Yes": "da"
+  "Yes": "da",
+  "EveryMinute": "vsakih {0}min"
 }

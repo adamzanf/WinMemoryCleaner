@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "δεν είναι δυνατή η αποθήκευση του αρχείου καταγραφής log: {0} (εξαίρεση: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "η βελτιστοποίηση {0} δεν υποστηρίζεται σε αυτήν την έκδοση λειτουργικού συστήματος",
   "ErrorResetCommand": "η επαναφορά απέτυχε: {0}",
-  "EveryHour": "κάθε {0}h",
   "Exit": "έξοδος",
   "Expand": "ανάπτυξη",
   "Free": "ελεύθερη",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "όταν η ελεύθερη φυσική μνήμη είναι κάτω από {0}%",
   "WarningLevel": "επίπεδο προειδοποίησης",
   "WorkingSet": "ενεργό σύνολο",
-  "Yes": "ναι"
+  "Yes": "ναι",
+  "EveryMinute": "κάθε {0}λ"
 }

@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "cannot save the log: {0} ({1})",
   "ErrorMemoryAreaOptimizationNotSupported": "the memory area {0} optimization is not supported on this version of the operating system",
   "ErrorResetCommand": "reset failed: {0}",
-  "EveryHour": "every {0}h",
   "Exit": "exit",
   "Expand": "expand",
   "Free": "free",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "when free physical memory is below {0}%",
   "WarningLevel": "warning level",
   "WorkingSet": "working set",
-  "Yes": "yes"
+  "Yes": "yes",
+  "EveryMinute": "every {0}min"
 }

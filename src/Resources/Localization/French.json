@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "impossible d'enregistrer le log : {0} (exception : {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "l'optimisation {0} n'est pas prise en charge sur cette version du système d'exploitation",
   "ErrorResetCommand": "échec de la réinitialisation : {0}",
-  "EveryHour": "tous les {0}h",
   "Exit": "quitter",
   "Expand": "développer",
   "Free": "libre",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "lorsque la mémoire physique libre est inférieure à {0}%",
   "WarningLevel": "niveau d'avertissement",
   "WorkingSet": "ensemble de travail",
-  "Yes": "oui"
+  "Yes": "oui",
+  "EveryMinute": "toutes les {0}min"
 }

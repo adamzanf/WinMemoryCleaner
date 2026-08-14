@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "لا يمكن حفظ السجل: {0} (استثناء: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "تحسين {0} غير مدعوم في إصدار نظام التشغيل هذا",
   "ErrorResetCommand": "فشلت إعادة التعيين: {0}",
-  "EveryHour": "كل {0} ساعة",
   "Exit": "خروج",
   "Expand": "توسيع",
   "Free": "متاحة",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "عندما تكون الذاكرة الفعلية الحرة أقل من {0}%",
   "WarningLevel": "مستوى التحذير",
   "WorkingSet": "مجموعة العمل",
-  "Yes": "نعم"
+  "Yes": "نعم",
+  "EveryMinute": "كل {0} دقيقة"
 }

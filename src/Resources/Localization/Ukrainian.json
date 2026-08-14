@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "неможливо зберегти лог: {0} (виняток: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "оптимізація {0} не підтримується в цій версії операційної системи",
   "ErrorResetCommand": "не вдалося скинути: {0}",
-  "EveryHour": "кожні {0}г",
   "Exit": "вийти",
   "Expand": "розгорнути",
   "Free": "вільно",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "коли вільна фізична пам'ять нижче {0}%",
   "WarningLevel": "рівень попередження",
   "WorkingSet": "робочий набір",
-  "Yes": "так"
+  "Yes": "так",
+  "EveryMinute": "кожні {0}хв"
 }

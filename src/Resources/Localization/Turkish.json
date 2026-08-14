@@ -21,7 +21,6 @@
   "ErrorCanNotSaveLog": "log kaydedilemiyor: {0} (istisna: {1})",
   "ErrorMemoryAreaOptimizationNotSupported": "{0} optimizasyonu bu işletim sistemi sürümünde desteklenmiyor",
   "ErrorResetCommand": "sıfırlama başarısız: {0}",
-  "EveryHour": "her {0}s",
   "Exit": "çıkış",
   "Expand": "genişlet",
   "Free": "boş",
@@ -71,5 +70,6 @@
   "WhenFreePhysicalMemoryIsBelow": "boş fiziksel bellek {0}%'nin altında olduğunda",
   "WarningLevel": "uyarı seviyesi",
   "WorkingSet": "çalışma kümesi",
-  "Yes": "evet"
+  "Yes": "evet",
+  "EveryMinute": "her {0}dk"
 }
