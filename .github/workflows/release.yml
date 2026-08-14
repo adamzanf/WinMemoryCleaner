@@ -157,11 +157,22 @@ jobs:
           wait-for-completion: true
           output-artifact-directory: ./
 
+      - name: Rename signed EXE to WinMemCleaner.exe
+        if: steps.signpath.conclusion == 'success'
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "WinMemoryCleaner.exe")) {
+            Write-Host "::error::Signed WinMemoryCleaner.exe not found."
+            exit 1
+          }
+          Rename-Item -Path "WinMemoryCleaner.exe" -NewName "WinMemCleaner.exe"
+          Write-Host "Renamed to WinMemCleaner.exe"
+
       - name: Create ZIP archive from SIGNED exe
         if: steps.signpath.conclusion == 'success'
         shell: pwsh
         run: |
-          Compress-Archive -Path "WinMemoryCleaner.exe", "README.md", "CHANGELOG.md" -DestinationPath WinMemoryCleaner.zip
+          Compress-Archive -Path "WinMemCleaner.exe", "README.md", "CHANGELOG.md" -DestinationPath WinMemoryCleaner.zip
 
       - name: Upload release artifacts
         if: steps.signpath.conclusion == 'success'
@@ -169,7 +180,7 @@ jobs:
         with:
           name: winmemorycleaner-release-${{ steps.version.outputs.new_tag }}
           path: |
-            WinMemoryCleaner.exe
+            WinMemCleaner.exe
             WinMemoryCleaner.zip
           retention-days: 30
 
@@ -189,7 +200,7 @@ jobs:
         shell: pwsh
         working-directory: release_artifacts
         run: |
-          Get-FileHash -Algorithm SHA256 -Path "WinMemoryCleaner.exe", "WinMemoryCleaner.zip" | ForEach-Object {
+          Get-FileHash -Algorithm SHA256 -Path "WinMemCleaner.exe", "WinMemoryCleaner.zip" | ForEach-Object {
             $_.Hash.ToLower() + "  " + (Split-Path -Leaf $_.Path)
           } | Out-File -FilePath "checksums.txt" -Encoding utf8
           Write-Host "Generated checksums.txt:"; cat checksums.txt
@@ -254,7 +265,7 @@ jobs:
             **${{ steps.commit_date.outputs.date }}**
             ${{ steps.formatted_message.outputs.body }}
           files: |
-            release_artifacts/WinMemoryCleaner.exe
+            release_artifacts/WinMemCleaner.exe
             release_artifacts/WinMemoryCleaner.zip
             release_artifacts/checksums.txt
           draft: true
